@@ -8,7 +8,7 @@
 
 #### 2: Enter Yes
 
-#### 3: Goto the 4th option says - "Configure and Deploy firebase Hosting sites", Use Arrow key to go down & Hit spacebar to select the option and then hit Enter key
+#### 3: Goto the option says - "Configure and Deploy firebase Hosting sites", Use Arrow key to go down & Hit spacebar to select the option and then hit Enter key
 
 #### 4: Enter `build` for directory && select `Yes` for all other options.
 
