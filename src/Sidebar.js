@@ -8,6 +8,8 @@ import {SearchOutlined} from "@material-ui/icons";
 import SidebarChat from "./SidebarChat";
 import db from './firebase';
 import { useStateValue } from './StateProvider';
+//this is new added
+import firebase from "firebase"
 
 function Sidebar(props) {
 
@@ -34,7 +36,7 @@ function Sidebar(props) {
     return (
         <div className="sidebar">
             <div className="sidebar_header">
-                <Avatar src={user?.photoURL}/>
+                <Avatar src={user?.photoURL} onClick={e=>firebase.auth().signOut()}/>
                 <div className="sidebar_headerRight">
                     <IconButton>
                         <DonutLargeIcon/>
